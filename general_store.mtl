@@ -1,0 +1,27 @@
+newmtl prototype/texture_01
+map_Kd textures/prototype/texture_01.png
+
+newmtl prototype/texture_02
+map_Kd textures/prototype/texture_02.png
+
+newmtl prototype/texture_03
+map_Kd textures/prototype/texture_03.png
+
+newmtl prototype/texture_07
+map_Kd textures/prototype/texture_07.png
+
+newmtl prototype/texture_08
+map_Kd textures/prototype/texture_08.png
+
+newmtl prototype/texture_09
+map_Kd textures/prototype/texture_09.png
+
+newmtl prototype/texture_10
+map_Kd textures/prototype/texture_10.png
+
+newmtl prototype/texture_12
+map_Kd textures/prototype/texture_12.png
+
+newmtl prototype/texture_13
+map_Kd textures/prototype/texture_13.png
+
