@@ -230,6 +230,7 @@ func on_refresh_banks_button_pressed() -> void:
 		else:
 			printerr("Could not find any banks in the specified directory")
 		for bank_path : String in bank_paths_to_load:
+			print(bank_path)
 			banks.append(FmodServer.load_bank(bank_path, FmodServer.FMOD_STUDIO_LOAD_BANK_NORMAL))
 	else:
 		printerr("Couldn't access bank path, please make sure you specified a folder with the banks as direct children")
