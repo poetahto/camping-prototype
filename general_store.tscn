@@ -50,8 +50,12 @@ billboard = 2
 shaded = true
 texture = ExtResource("3_so2f1")
 
+[node name="CSGBox3D2" type="CSGBox3D" parent="."]
+transform = Transform3D(1.3, 0, 0, 0, 0.0320793, -1.2996, 0, 1.2996, 0.0320793, -2.41642, 1.0688, -3.57473)
+size = Vector3(0.0322876, 0.0479126, 1.26294)
+
 [node name="Root Scene" parent="." instance=ExtResource("4_ntocq")]
-transform = Transform3D(1.3, 0, 0, 0, 1.3, 0, 0, 0, 1.3, -2.89889, -1.792, -4.39331)
+transform = Transform3D(1.3, 0, 0, 0, 0.0320793, -1.2996, 0, 1.2996, 0.0320793, -2.4143, 0.20304, -5.1193)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Root Scene"]
 transform = Transform3D(0.6, 0, 0, 0, 0.752635, -0.403288, 0, 0.641858, 0.472891, 6.90364, 1.58571, -0.607095)
@@ -62,3 +66,5 @@ environment = SubResource("Environment_mimyp")
 
 [node name="CSGBox3D" type="CSGBox3D" parent="."]
 transform = Transform3D(-0.480889, -0.177941, -0.858536, -0.637249, 0.743483, 0.202845, 0.602213, 0.644647, -0.470925, 5.62004, -0.526207, 0)
+
+[node name="FmodBankLoader" type="FmodBankLoader" parent="."]
