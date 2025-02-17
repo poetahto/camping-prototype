@@ -11,6 +11,7 @@ data = PackedVector3Array(-4.096, -1.024, -1.024, -4.096, -1.024, -3.072, -4.096
 [sub_resource type="TorusMesh" id="TorusMesh_shcd1"]
 
 [sub_resource type="Environment" id="Environment_mimyp"]
+tonemap_mode = 2
 ssao_enabled = true
 
 [node name="Node3D" type="Node3D"]
@@ -29,18 +30,22 @@ shape = SubResource("ConcavePolygonShape3D_oebk3")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.42498)
 
 [node name="OmniLight3D" type="OmniLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.28827, 0.396869, -0.265608)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.28827, 0.0359347, 0.0286149)
+light_specular = 0.0
 omni_range = 13.0471
 
 [node name="OmniLight3D3" type="OmniLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.80632, 0.988015, -4.23533)
 light_energy = 0.5
+light_specular = 0.0
 omni_range = 13.0471
 
 [node name="OmniLight3D2" type="OmniLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.49376, 0.214525, 1.27418)
+light_specular = 0.0
 shadow_enabled = true
 shadow_bias = 0.01
+shadow_opacity = 0.4
 omni_range = 13.0471
 
 [node name="Sprite3D" type="Sprite3D" parent="."]
