@@ -32,7 +32,7 @@ light_energy = 0.5
 omni_range = 13.0471
 
 [node name="OmniLight3D2" type="OmniLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.29697, 0.214525, 1.27418)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.49376, 0.214525, 1.27418)
 shadow_enabled = true
 shadow_bias = 0.01
 omni_range = 13.0471
